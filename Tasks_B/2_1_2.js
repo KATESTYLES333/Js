@@ -53,8 +53,21 @@ function isEqualSum_3(value, k, n) {
 }
 
 
+function palindrom(n) {
+	var i = n;
+	var res = 0;
+	for(; parseInt(n) != 0; n /= 10){
+		res *= 10;
+		res += parseInt(n % 10);
+	}
+	if(res === i){
+		return res;
+	}
+	return false;
+}
 
 
 console.log(sumN(12.34567, 2));
 console.log(countN(18.3999435, 4));
 console.log(isEqualSum_3(231.453674, 2, 2));
+console.log(palindrom(321));
