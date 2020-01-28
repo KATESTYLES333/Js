@@ -277,17 +277,17 @@ function isEqualSum_3(value, k, n) {
 
 
 
-console.log(two_digits_1(505)); 
-console.log(three_digits_2(555)); 
-console.log(palindrom_3(505)); 
-console.log(different_4_6(5066)); 
-console.log(k_differese_5(2235, 2)); 
-console.log(two_digits_7(66)); 
-console.log(k_differese_8_10(22335, 2)); 
-console.log(k_sum_9(1221, 2)); 
-console.log(second_9(12621, 2)); 
-console.log(k_num_less_than_m_11(123, 3, 7)); 
-console.log(task_12(125421, 3));
-console.log(sumN(12.34567, 2));
-console.log(countN(18.3999435, 4));
-console.log(isEqualSum_3(231.453674, 2, 2));
+// console.log(two_digits_1(505)); 
+// console.log(three_digits_2(555)); 
+// console.log(palindrom_3(505)); 
+// console.log(different_4_6(5066)); 
+// console.log(k_differese_5(2235, 2)); 
+console.log(two_digits_7(6836)); 
+// console.log(k_differese_8_10(22335, 2)); 
+// console.log(k_sum_9(1221, 2)); 
+// console.log(second_9(12621, 2)); 
+// console.log(k_num_less_than_m_11(123, 3, 7)); 
+// console.log(task_12(125421, 3));
+// console.log(sumN(12.34567, 2));
+// console.log(countN(18.3999435, 4));
+// console.log(isEqualSum_3(231.453674, 2, 2));

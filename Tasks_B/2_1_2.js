@@ -52,22 +52,22 @@ function isEqualSum_3(value, k, n) {
 	return false;
 }
 
+///////////NEW//////////////////////
 
-function palindrom(n) {
-	var i = n;
-	var res = 0;
-	for(; parseInt(n) != 0; n /= 10){
-		res *= 10;
-		res += parseInt(n % 10);
+let array = [1, 2, 2, 0, 6, 5, 4];
+
+function areDiff(value, n){
+	for(let i = 0; i != n-1; ++i){
+		for(let j = i+1; j != n; ++j){
+			if(array[i] != array[j]){
+				console.log(array[j]);
+			}
+		}
 	}
-	if(res === i){
-		return res;
-	}
-	return false;
 }
 
 
-console.log(sumN(12.34567, 2));
-console.log(countN(18.3999435, 4));
-console.log(isEqualSum_3(231.453674, 2, 2));
-console.log(palindrom(321));
+
+//console.log(sumN(12.34567, 2));
+//console.log(countN(18.3999435, 4));
+//console.log(isEqualSum_3(231.453674, 2, 2));
